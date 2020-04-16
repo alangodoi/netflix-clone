@@ -10,4 +10,5 @@ Data from [The Movide Database](https://www.themoviedb.org/)
 
 ## Versions 
 
+### v0.0.2 - Added Video Player inside the list
 ### v0.0.1 - Basic Layout

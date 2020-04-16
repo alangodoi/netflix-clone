@@ -9,12 +9,13 @@ class HorizontalList extends StatelessWidget {
 
   List<Widget> buildTile() {
     // for (var i = 0; i < posterUrls.length; i++) {
-    for (var i = 0; i < 9; i++) {
+    for (var i = 0; i < 14; i++) {
       _horizontalListItem.add(SizedBox(
         width: 10,
       ));
       _horizontalListItem.add(HorizontalListItem(
-        link: "https://image.tmdb.org/t/p/original/" + posterUrls[i],
+        // link: "https://image.tmdb.org/t/p/original/" + posterUrls[i],
+          link: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/" + posterUrls[i]
         // "https://image.tmdb.org/t/p/original/qa6HCwP4Z15l3hpsASz3auugEW6.jpg",
       ));
     }
