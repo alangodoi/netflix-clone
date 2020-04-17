@@ -6,6 +6,7 @@ import 'package:flutter/rendering.dart';
 import 'package:http/http.dart';
 import 'package:netflix/models/movie.dart';
 import 'package:netflix/models/popular.dart';
+import 'package:netflix/widgets/custom_bottom_navbar.dart';
 import 'package:netflix/widgets/custom_sliver_app_bar.dart';
 import 'package:netflix/widgets/horizontal_list.dart';
 import 'package:netflix/widgets/video_player.dart';
@@ -454,6 +455,7 @@ class _HomeScreenState extends State<HomeScreen>
                     ),
                   ),
                 ),
+                bottomNavigationBar: CustomBottomNavBar(),
               )
             : Center(
                 child: CircularProgressIndicator(

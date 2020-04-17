@@ -16,12 +16,12 @@ class _YoutubeVideoPlayerState extends State<YoutubeVideoPlayer> {
   void initState() {
     super.initState();
     _controller = YoutubePlayerController(
-      initialVideoId: 'adzYW5DZoWs',
+      initialVideoId: 'adzYW5DZoWs', // Start Wars      
       flags: YoutubePlayerFlags(
         mute: false,
         autoPlay: true,
         disableDragSeek: false,
-        loop: false,
+        loop: true,
         isLive: false,
         // forceHideAnnotation: true,
         forceHD: false,

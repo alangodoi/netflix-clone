@@ -11,7 +11,7 @@ class CustomSliverAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverAppBar(
-      expandedHeight: 580.0,
+      expandedHeight: 550.0,
       floating: false,
       pinned: false,
       snap: false,
@@ -36,17 +36,13 @@ class CustomSliverAppBar extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                'abc ' +
+                'Guerra ' +
                     String.fromCharCode($middot) +
-                    ' def ' +
+                    ' Drama ' +
                     String.fromCharCode($middot) +
-                    ' def ' +
+                    ' Ação ' +
                     String.fromCharCode($middot) +
-                    ' def ' +
-                    String.fromCharCode($middot) +
-                    ' def ' +
-                    String.fromCharCode($middot) +
-                    ' def ',
+                    ' Thriller ',
                 style: TextStyle(
                   fontSize: 14,
                   fontFamily: 'Comfortaa',
@@ -54,7 +50,9 @@ class CustomSliverAppBar extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              SizedBox(height: 15,),
+              SizedBox(
+                height: 15,
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
