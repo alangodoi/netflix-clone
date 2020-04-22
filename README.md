@@ -2,7 +2,7 @@
 
 ## Data Source
 
-Data from [The Movide Database](https://www.themoviedb.org/)
+Data from [The Movie Database](https://www.themoviedb.org/)
 
 ## License
 
