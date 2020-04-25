@@ -9,7 +9,6 @@ import 'package:netflix/models/popular.dart';
 import 'package:netflix/widgets/custom_bottom_navbar.dart';
 import 'package:netflix/widgets/custom_sliver_app_bar.dart';
 import 'package:netflix/widgets/horizontal_list.dart';
-import 'package:netflix/widgets/video_player.dart';
 import 'package:netflix/widgets/youtube_player.dart';
 
 class HomeScreen extends StatefulWidget {

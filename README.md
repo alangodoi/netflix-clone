@@ -1,6 +1,6 @@
 # Netflix app clone
 
-## 
+## App Layout
 ![App Image](https://i.imgur.com/2h8BNvK.png)
 
 ## Data Source
