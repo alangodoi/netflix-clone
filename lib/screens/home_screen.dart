@@ -124,7 +124,6 @@ class _HomeScreenState extends State<HomeScreen>
     Response response = await get(url);
 
     if (response.statusCode == 200) {
-      // return Popular.fromJson(jsonDecode(response.body));
       return response;
     } else {
       throw Exception('Failed to load post');
@@ -152,7 +151,6 @@ class _HomeScreenState extends State<HomeScreen>
     Response response = await get(url);
 
     if (response.statusCode == 200) {
-      // return Movie.fromJson(jsonDecode(response.body));
       return response;
     } else {
       throw Exception('Failed to load post');

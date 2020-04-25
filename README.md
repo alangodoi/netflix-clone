@@ -1,5 +1,8 @@
 # Netflix app clone
 
+## 
+![App Image](https://i.imgur.com/2h8BNvK.png)
+
 ## Data Source
 
 Data from [The Movide Database](https://www.themoviedb.org/)
